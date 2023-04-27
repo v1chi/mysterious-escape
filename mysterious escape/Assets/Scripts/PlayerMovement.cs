@@ -8,16 +8,19 @@ public class PlayerMovement : MonoBehaviour
 
     private float attackTime= .25f;
     private float attackCounter = .25f;
-    private bool isAttacking;
+    public bool isAttacking;
 
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
     private Animator playerAnimator;
 
+    private Attack attackScript;
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        attackScript = GetComponent<Attack>();
     }
 
     void Update()

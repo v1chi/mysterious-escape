@@ -6,6 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
 
+    private float attackTime= .25f;
+    private float attackCounter = .25f;
+    private bool isAttacking;
+
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
     private Animator playerAnimator;
@@ -30,6 +34,21 @@ public class PlayerMovement : MonoBehaviour
         {
             playerAnimator.SetFloat("LastMoveHorizontal", Input.GetAxisRaw("Horizontal"));
             playerAnimator.SetFloat("LastMoveVertical", Input.GetAxisRaw("Vertical"));
+        }
+        if(isAttacking){
+            moveInput= Vector2.zero;
+            attackCounter -= Time.deltaTime;
+            if(attackCounter<=0){
+                playerAnimator.SetBool("isAttacking",false);
+                isAttacking = false; 
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.T)){
+
+            attackCounter= attackTime;
+            playerAnimator.SetBool("isAttacking", true);
+            isAttacking = true;
         }
     }
 

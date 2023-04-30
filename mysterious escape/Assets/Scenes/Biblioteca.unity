@@ -3126,6 +3126,7 @@ GameObject:
   - component: {fileID: 697143813}
   - component: {fileID: 697143814}
   - component: {fileID: 697143815}
+  - component: {fileID: 697143816}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -3284,6 +3285,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   isAttacking: 0
+--- !u!114 &697143816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697143806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3faee900981fb45a5874a3f5a253b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 50
+  maxHealth: 50
 --- !u!1 &698392808
 GameObject:
   m_ObjectHideFlags: 0
@@ -8903,6 +8918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce56e93e1d87dc84ab1283934fddf88c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 10
 --- !u!1 &1847846024
 GameObject:
   m_ObjectHideFlags: 0

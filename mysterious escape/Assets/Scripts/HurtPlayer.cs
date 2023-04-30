@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class HurtPlayer : MonoBehaviour
 {
     private HealthManager healthMan;
-    private float waitToHurt = 1f;
-    private bool isTouching;
+    public float waitToHurt = 1f;
+    public bool isTouching;
     [SerializeField]
     private int damageToGive= 10;
     // Start is called before the first frame update
@@ -48,6 +48,17 @@ public class HurtPlayer : MonoBehaviour
         
     }
     private void OnCollisionStay2D(Collision2D  other){
-        isTouching= true;
+
+        if(other.collider.tag == "Player")
+        {
+            isTouching=true;
+        }
+        
+    }
+
+    private void OnCollisionExit2D(Collision2D other){
+        if(other.collider.tag =="Player")
+        isTouching = false;
+        waitToHurt= 2f;
     }
 }

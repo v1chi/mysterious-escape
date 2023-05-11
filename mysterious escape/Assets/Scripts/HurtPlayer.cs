@@ -30,7 +30,7 @@ public class HurtPlayer : MonoBehaviour
         if(isTouching){
             waitToHurt -= Time.deltaTime;
             if (waitToHurt <=0){
-                health.HurtPlayer(damageToGive);
+                //health.HurtPlayer(damageToGive);
                 waitToHurt =2f;
 
             }

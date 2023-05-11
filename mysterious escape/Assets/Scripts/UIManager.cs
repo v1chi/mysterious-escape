@@ -6,21 +6,21 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
 
-    private HealthPlayer healthMan;
+    private HealthPlayer health;
     public Slider healthBar;
     public Text hpText;
     // Start is called before the first frame update
     void Start()
     {
-        healthMan = FindObjectOfType<HealthPlayer>();
+        health = FindObjectOfType<HealthPlayer>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.maxValue = healthMan.maxHealth;
-        healthBar.value = healthMan.currentHealth;
-        hpText.text = "HP: " + healthMan.currentHealth + "/" + healthMan.maxHealth;
+        healthBar.maxValue = health.maxHealth;
+        healthBar.value = health.currentHealth;
+        hpText.text = "HP: " + health.currentHealth + "/" + healthMan.maxHealth;
     }
 }

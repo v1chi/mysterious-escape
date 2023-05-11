@@ -1062,6 +1062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf427f0c580e47b429a89a1c6ef8f7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxChannel: []
 --- !u!1 &394725418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,8 +2603,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c14ddf3e24e4004bad5d7951520d864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  isAttacking: 0
+  player: {fileID: 0}
+  hitbox: {fileID: 0}
+  walkSpeed: 2
+  runSpeed: 0
 --- !u!114 &697143816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,9 +2619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f3faee900981fb45a5874a3f5a253b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 50
+  enemy: 0
   maxHealth: 50
-  flashLength: 1
+  health: 0
 --- !u!1 &698392808
 GameObject:
   m_ObjectHideFlags: 0
@@ -4900,6 +4903,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
+  atkCooldown: 0.8
+  hitbox: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  isAttacking: 0
+  atksound: []
+  stepsound: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!1 &1480335486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,9 +5452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7738ec0bef2f3c24fb9d5787d1d7086a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FollowSpeed: 7
-  yOffset: 1
-  target: {fileID: 697143810}
 --- !u!1 &1587399217
 GameObject:
   m_ObjectHideFlags: 0

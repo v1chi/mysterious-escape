@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     //[SerializeField] private float speed = 3f;
 
-    //public bool isAttacking;
-    //private Vector2 moveInput;
+
+    private Vector2 moveInput;
 
     //private Attack attackScript;
 

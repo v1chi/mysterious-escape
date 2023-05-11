@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthPlayer : MonoBehaviour
 {
     [SerializeField] private bool enemy;
-    [SerializeField] private float maxHealth = 20f;
+    [SerializeField] public float maxHealth = 20f;
 
     private GameObject player;
     private Collider2D hitbox;
@@ -30,13 +30,17 @@ public class HealthPlayer : MonoBehaviour
     public void UpdateHealth(float mod)
     {
         health += mod;
+        /*if (mod < 0)
+        {
+            playerAnimator.setBool(hurt, true);
+        }*/
         if (health > maxHealth)
         {
             health = maxHealth;
         }
         if (health <= 0)
         {
-            Die();
+            Destroy();
         }
     }
 

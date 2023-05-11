@@ -14,7 +14,7 @@ public class HurtPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health= FindObjectOfType<HealthManager>();
+        health = FindObjectOfType<HealthPlayer>();
     }
 
     // Update is called once per frame
@@ -41,7 +41,7 @@ public class HurtPlayer : MonoBehaviour
         if(other.collider.tag=="Player"){
             //Destroy(other.gameObject);
             //other.gameObject.SetActive(false);
-            other.gameObject.GetComponent<HealthPlayer>().HurtPlayer(damageToGive);
+            other.gameObject.GetComponent<HealthPlayer>().UpdateHealth(-damageToGive);
             //reloading= false;
 
         }

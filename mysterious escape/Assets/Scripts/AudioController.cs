@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] AudioSource[] sfxChannel;
+    WaitForSeconds cleanTime = new WaitForSeconds(2f);
+    public void PlaySfx(AudioClip clip)
     {
-        
+        for (int i = 0; i < sfxChannel.Length; i++)
+        {
+            if (sfxChannel[i].clip == null)
+            {
+                sfxChannel[i].clip = clip;
+                sfxChannel[i].Play();
+                StartCoroutine(CleanAudioChannel(i));
+                break;
+            }
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    IEnumerator CleanAudioChannel(int channel)
     {
-        
+        yield return cleanTime;
+        sfxChannel[channel].clip = null;
     }
 }

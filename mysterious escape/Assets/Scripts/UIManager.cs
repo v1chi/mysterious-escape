@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
 
-    private HealthManager healthMan;
+    private HealthPlayer healthMan;
     public Slider healthBar;
     public Text hpText;
     // Start is called before the first frame update
     void Start()
     {
-        healthMan = FindObjectOfType<HealthManager>();
+        healthMan = FindObjectOfType<HealthPlayer>();
         
     }
 

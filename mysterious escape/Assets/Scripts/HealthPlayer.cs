@@ -44,10 +44,7 @@ public class HealthPlayer : MonoBehaviour
         }
     }
 
-    private void Die()
-    {
-        playerAnimator.SetTrigger("Dead");
-    }
+
     public void Destroy()
     {
         Destroy(gameObject);

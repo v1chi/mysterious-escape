@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            hitbox.GetComponent<Attack>().AttackAnimation();
+            playerAnimator.SetBool("Attack", true);
         }
     }
 

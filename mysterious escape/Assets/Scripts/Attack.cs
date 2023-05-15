@@ -21,7 +21,7 @@ public class Attack : MonoBehaviour
 
     void Start()
     {
-        controller = GameObject.Find("Audio").GetComponent<AudioController>();
+        //controller = GameObject.Find("Audio").GetComponent<AudioController>();
         hitbox.enabled = false;
     }
     public void AttackAnimation()
@@ -32,14 +32,12 @@ public class Attack : MonoBehaviour
             controller.PlaySfx(atksound[randomSfx]);
             isAttacking = true;
             hitbox.enabled = true;
-            playerAnimator.SetBool("isAttacking", true);
-            //weapon.SetBool("isAttacking", true);
+            playerAnimator.SetBool("Attack", true);
         }
     }
     public void EndAttack()
     {
-        playerAnimator.SetBool("isAttacking", false);
-        //weapon.SetBool("isAttacking", false);
+        playerAnimator.SetBool("Attack", false);
         isAttacking = false;
         hitbox.enabled = false;
         StartCoroutine(AttackCooldown(atkCooldown));

@@ -4,101 +4,58 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //[SerializeField] private float speed = 3f;
+    [SerializeField] private float speed = 3f;
 
+    private float attackTime= .25f;
+    private float attackCounter = .25f;
+    private bool isAttacking;
 
-    private Vector2 moveInput;
-
-    //private Attack attackScript;
-
-    [Header("Componentes")]
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject hitbox;
-    private HealthPlayer health;
     private Rigidbody2D playerRb;
-    private SpriteRenderer sr;
+    private Vector2 moveInput;
     private Animator playerAnimator;
-    //private Animator weapon;
 
-    [Header("Movimiento")]
-    private float characterSpeed;
-    public float walkSpeed;
-    public float runSpeed;
-
-    // Start is called before the first frame update
     void Start()
     {
-        characterSpeed = walkSpeed;
         playerRb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
-        //weapon = hitbox.GetComponent<Animator>();
-        health = this.GetComponent<HealthPlayer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        MovementUpdate();
-        Attack();
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+        moveInput = new Vector2(moveX, moveY).normalized;
+
+        playerAnimator.SetFloat("Horizontal", moveX);
+        playerAnimator.SetFloat("Vertical", moveY);
+        playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
+
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+        {
+            playerAnimator.SetFloat("LastMoveHorizontal", Input.GetAxisRaw("Horizontal"));
+            playerAnimator.SetFloat("LastMoveVertical", Input.GetAxisRaw("Vertical"));
+        }
+         if(isAttacking){
+            moveInput= Vector2.zero;
+            attackCounter -= Time.deltaTime;
+            if(attackCounter<=0){
+                playerAnimator.SetBool("isAttacking",false);
+                isAttacking = false; 
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.T)){
+
+            attackCounter= attackTime;
+            playerAnimator.SetBool("isAttacking", true);
+            isAttacking = true;
+        }
     }
 
-    void FixedUpdate()
+    
+
+    private void FixedUpdate()
     {
-        playerRb.velocity = new Vector2(characterSpeed * Input.GetAxisRaw("Horizontal"), characterSpeed * Input.GetAxisRaw("Vertical"));
+        playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
     }
-
-    void MovementUpdate()
-    {
-        playerAnimator.SetFloat("Horizontal", Input.GetAxisRaw("Horizontal"));
-        playerAnimator.SetFloat("Vertical", Input.GetAxisRaw("Vertical"));
-        playerAnimator.SetFloat("Speed", playerRb.velocity.sqrMagnitude);
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            characterSpeed = runSpeed;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            characterSpeed = walkSpeed;
-        }
-        LastDirection();
-    }
-
-    void Attack()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            playerAnimator.SetBool("Attack", true);
-        }
-    }
-
-    void LastDirection()
-    {
-        if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            playerAnimator.SetFloat("Dir", 1);
-            //weapon.SetFloat("Dir", 1);
-        }
-        if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            playerAnimator.SetFloat("Dir", 3);
-            //weapon.SetFloat("Dir", 3);
-        }
-        if (Input.GetAxisRaw("Vertical") > 0)
-        {
-            playerAnimator.SetFloat("Dir", 0);
-            //weapon.SetFloat("Dir", 0);
-        }
-        if (Input.GetAxisRaw("Vertical") < 0)
-        {
-            playerAnimator.SetFloat("Dir", 2);
-            //weapon.SetFloat("Dir", 2);
-        }
-    }
-
-    public void EndAttack()
-    {
-        hitbox.GetComponent<Attack>().EndAttack();
-    }
-
 }

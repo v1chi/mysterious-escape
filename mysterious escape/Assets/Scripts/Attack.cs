@@ -43,14 +43,6 @@ public class Attack : MonoBehaviour
         StartCoroutine(AttackCooldown(atkCooldown));
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Enemy" && isAttacking == true)
-        {
-            other.GetComponent<HealthEnemy>().UpdateHealth(-damage);
-        }
-    }
-
     public IEnumerator AttackCooldown(float atkCooldown)
     {
         canAttack = false;

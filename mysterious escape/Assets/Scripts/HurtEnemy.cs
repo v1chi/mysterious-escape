@@ -21,9 +21,7 @@ public class HurtEnemy : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            EnemyHealth eHealthMan;
-            eHealthMan = other.gameObject.GetComponent<EnemyHealth>();
-            eHealthMan.HurtEnemy(damageToGive);
+            other.GetComponent<EnemyHealth>().HurtEnemy(damageToGive);
         }
     }
 }

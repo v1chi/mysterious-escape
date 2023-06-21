@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour
 {
-       public int currentHealth;
+    public int currentHealth;
     public int maxHealth;
 
     private bool flashActive;

@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     private float attackTime= .25f;
     private float attackCounter = .25f;
     private bool isAttacking;
-
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
     private Animator playerAnimator;
@@ -46,13 +45,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.T)){
 
-            attackCounter= attackTime;
+            attackCounter = attackTime;
             playerAnimator.SetBool("isAttacking", true);
             isAttacking = true;
         }
     }
-
-    
 
     private void FixedUpdate()
     {

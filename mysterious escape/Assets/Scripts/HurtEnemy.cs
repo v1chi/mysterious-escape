@@ -28,6 +28,7 @@ public class HurtEnemy : MonoBehaviour
             {
                 healthMan.HurtEnemy(damageToGive);
                 waitToHurt = 2f;
+                //isTouching = false; //nueva
             }
         }
     }

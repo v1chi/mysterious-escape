@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class HealthManager : MonoBehaviour
 {
     public int currentHealth;
@@ -12,6 +12,8 @@ public class HealthManager : MonoBehaviour
     private float flashLength = 0f;
     private float flashCounter= 0f;
     private SpriteRenderer playerSprite;
+
+    public event EventHandler MuerteJugador;
 
     // Start is called before the first frame update
     void Start()
@@ -70,7 +72,10 @@ public class HealthManager : MonoBehaviour
         flashCounter = flashLength;
 
         if (currentHealth<=0){
-            gameObject.SetActive(false);
+
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
+           
+            
         }
     }
 }

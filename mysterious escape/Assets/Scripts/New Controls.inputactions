@@ -1,0 +1,43 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0d87da58-c104-4477-829d-76e0137b1538",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "69cc9c4a-bf63-4a06-b21f-f3e9dadd78d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "e0996d50-3137-4f72-867a-4ffd1821b559",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4ab8262-8b95-45dc-88bb-3405aef5bd69",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

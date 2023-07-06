@@ -20,6 +20,7 @@ public class HealthManager : MonoBehaviour
     {
         
         playerSprite = GetComponent<SpriteRenderer>();
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -74,7 +75,7 @@ public class HealthManager : MonoBehaviour
         if (currentHealth<=0){
 
             MuerteJugador?.Invoke(this, EventArgs.Empty);
-           
+           Time.timeScale = 0f;
             
         }
     }

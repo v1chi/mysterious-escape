@@ -1470,13 +1470,12 @@ GameObject:
   - component: {fileID: 215413413}
   - component: {fileID: 215413416}
   - component: {fileID: 215413415}
-  - component: {fileID: 215413414}
   m_Layer: 0
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &215413413
 Transform:
@@ -1486,25 +1485,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215413412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.052, y: 0.11, z: 0}
+  m_LocalPosition: {x: -0.1, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2074201305}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &215413414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215413412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!483693784 &215413415
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -10476,8 +10463,8 @@ Tilemap:
   - first: {x: 0, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 5
+      m_TileIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_TileObjectToInstantiateIndex: 65535
@@ -17491,9 +17478,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 1592
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 2074032077ed0f24da0353a406726e3b, type: 2}
+  - m_RefCount: 1591
     m_Data: {fileID: 11400000, guid: 1d893bdc50801404cae0d46be189dabe, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -17504,9 +17491,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 1592
+  - m_RefCount: 1
+    m_Data: {fileID: 21300052, guid: a07735877a3bd644094331b137b71878, type: 3}
+  - m_RefCount: 1591
     m_Data: {fileID: 21300000, guid: da936ea6838bdae4c870c94adf6ef7d6, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1592
@@ -22952,9 +22939,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFull: 000000
   slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1720411800}
+  - {fileID: 972436288}
+  - {fileID: 339520341}
 --- !u!114 &1162274495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67521,7 +67508,6 @@ GameObject:
   - component: {fileID: 1394749158}
   - component: {fileID: 1394749157}
   - component: {fileID: 1394749156}
-  - component: {fileID: 1394749155}
   - component: {fileID: 1394749160}
   - component: {fileID: 1394749159}
   m_Layer: 0
@@ -67529,7 +67515,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1394749154
 Transform:
@@ -67539,25 +67525,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394749153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -0.23, z: 0}
+  m_LocalPosition: {x: -0.12, y: -0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2074201305}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1394749155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394749153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!19719996 &1394749156
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -77906,6 +77880,11 @@ PrefabInstance:
     - target: {fileID: 1837447766356217680, guid: 99b75de68109ce54192b3949a18166f9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717219969431924830, guid: 99b75de68109ce54192b3949a18166f9,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8619691455764732788, guid: 99b75de68109ce54192b3949a18166f9,

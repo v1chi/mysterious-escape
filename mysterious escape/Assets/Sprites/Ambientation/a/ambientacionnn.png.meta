@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 100e186aa570e3f41901ec6c353c23dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ambientacionnn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 713
+        width: 229
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8feba7ca0e8f4d99c5e5a1ba21e71
+      internalID: 147115759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 672
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9584e3e57734a84e922a31148957134
+      internalID: -264345295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 672
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12858a47b97a29a408f38b5b1cd226d4
+      internalID: -821774745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_3
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 672
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8214588475494744fa8a729413085740
+      internalID: 299777277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 672
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12891ab62df1e8a4ab3cfe2471fff485
+      internalID: 1728875682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 631
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ddf808b697a640bafc384a6035ff1
+      internalID: -762046626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 631
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f454279d3cc424d42868162b6bffc1d7
+      internalID: 877710188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 576
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0992f6c488b02489379c1cde326085
+      internalID: 1230438551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 576
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab5bfa4e4afbf46b35f280a79a934b
+      internalID: 774677293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_9
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 576
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d2318a7373c97429ff826ff56f7566
+      internalID: -199081399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 528
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fae5ae145ea5a4e8073f8d08ab094b
+      internalID: 1239966890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 528
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f64e369bf171f4c8287de6f5495090
+      internalID: 51230951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 480
+        width: 47
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d14dd8e0137c8a47af5a45e5b9a1c90
+      internalID: 1878029465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 480
+        width: 46
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5edb1ef0e4718c48a3225f6868d845b
+      internalID: 765062391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 492
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6d861f0085424b83f9422da189bc7
+      internalID: 1654216503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 491
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11a60d5ded22344aa1e892c5ee19413
+      internalID: 1400251461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 432
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5616c6236ab2cc248aa6eee82d7a3de0
+      internalID: 279981957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 432
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f3f6f57f426e04d8715e174053c948
+      internalID: -2144173494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 442
+        width: 21
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2fcc884b87eb14aa2d59a66dac278c
+      internalID: -582417673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_19
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 439
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b306ef4b3a1a1b4e9b2811ed3f89872
+      internalID: 1539418091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 432
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457bd4d35a2b12344844ed9aab7e0b5e
+      internalID: 89052783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 422
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a9313d5f59cb7439c3a5312f540406
+      internalID: -1706293300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 384
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836a97c06a227644680606ce49826b5e
+      internalID: -864841484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 384
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6934f1e7c0781fe4db091e53417a2366
+      internalID: 1158822015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_24
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 396
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f6c4966b5304e40b34fda0e5c69fb7
+      internalID: 1693610987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_25
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 336
+        width: 8
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342f6272204a0bc4b890be949360af89
+      internalID: 909403803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 384
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea315d1cd4e0d94418d2a4c3459c91ea
+      internalID: 849666578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 389
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0daff73f6909c442a29e64741019a7a
+      internalID: 144961064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_28
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 384
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcabe5bce116cff45b6d2a45c4854df3
+      internalID: 521809296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_29
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 336
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925743f20e4e162428eacb4c541844fe
+      internalID: -1384979822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_30
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 270
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853019df62edf2445b883f060d663c8e
+      internalID: -886266233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_31
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 240
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d97102f2785ed47a657fb89319fe4b
+      internalID: -593176955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_32
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 240
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3fc4ee43d4754199f64cf10377008
+      internalID: 1662966722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_33
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 297
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935a931e280f7446bc4d67d354241a3
+      internalID: 1927047259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 297
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f57e9678270ce41bfab852befc6495
+      internalID: 598192291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_35
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 243
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e44b6ecf716ca5488212e4bcd0d4003
+      internalID: 1847338115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_36
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 298
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f8fd7d7dfcaa42a0d539c74dc553f
+      internalID: 303787253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_37
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 297
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab0a64a6191bfb4993ddd70d22e6130
+      internalID: 2053115176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_38
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 270
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc90f80fd2c640643b82dd741fc06c72
+      internalID: 510012394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_39
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 270
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11ce64c32b3d4458eed59c30a99100
+      internalID: 341146809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_40
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 273
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915ed7f46bbd4b049b3ecfa1ea87eb18
+      internalID: 990851768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_41
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 273
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acb1d9e5701cb644886f6a4dd58c101
+      internalID: -1128678947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_42
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 262
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6462583e4a72441b772c6594034c1f
+      internalID: 1835260937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_43
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 272
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471c691f505a19c429a1e47abb032817
+      internalID: 1683033928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_44
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 242
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48b24303a023064b95177650f462f70
+      internalID: 1080463179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_45
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 242
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba57cd2b815d4a47b8bbfb595fc7c49
+      internalID: 303195474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_46
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 245
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b791693a4dfbf4085b0bdb4a3c7c17
+      internalID: 987078828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_47
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 240
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9238bde833f1040a33c3cd2c67dc35
+      internalID: 1623970417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 240
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d4c14b906bc6a45991c9597279eb60
+      internalID: 777439341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_49
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 151
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c120caf6d38e73498d11d14001a9eeb
+      internalID: 923137632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 110
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d360f49e2e2764397c7a1d741ba65c
+      internalID: 341411407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_51
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 95
+        width: 17
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cad1ea3751dd774990a1fc1de298bdd
+      internalID: -98499865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_52
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 95
+        width: 17
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccadd5600e151de4abc60318614270d7
+      internalID: -182795864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_53
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 95
+        width: 17
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbacc7eba7c1c2f4c9fe6168878850ff
+      internalID: -1300224831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_54
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 95
+        width: 19
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5537b5fb197a4fac28a9a09f7822d
+      internalID: -323319471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_55
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 95
+        width: 21
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc8c0283c0194241ba2980d8fd7be02
+      internalID: -1506156088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 68
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c9a399cda52914295d8167533d14bd
+      internalID: 2100010347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09646c9897eef2a4699afef5e0792781
+      internalID: -1898737495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_58
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 56
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d64f156cab5044bf064803fad87f4
+      internalID: 1109137471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 66
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998a2d3e8db1ee2498a52edc98eab772
+      internalID: -1235155527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_60
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 66
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbb0aeed887aaa4da365f36e561e371
+      internalID: 358045619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 66
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9693493469bd5aa4f83566efe22c1510
+      internalID: -1670864026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 66
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d2cbb0b2aab0549a0279895bbdf8d9
+      internalID: 2101918918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 21
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea5704b2f8e93e48b91e9d67bddc9ee
+      internalID: 348672364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 19
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04af5252dda75048b40b7dda987dd47
+      internalID: 985663035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 17
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acbf0a4bbb00ff4b97c07b96c41639a
+      internalID: 323033220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_66
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 17
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e12c365e3bc3dc41ae7d9fcfc85f9ec
+      internalID: -464666821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 17
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f514ebf30e9084cbb8c46703461b28
+      internalID: -2021874506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_68
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb509e886adaeb43b189eaa4c10e7f9
+      internalID: 265149927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_69
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 18
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788944244bf21af47a407170f7f5de00
+      internalID: 355779915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 18
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9185f060ea88aa4a84c9280715a44ed
+      internalID: 769414420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 18
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37eb6ce8d40da947827fe31e09c09a9
+      internalID: 126472175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambientacionnn_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 18
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c79455534ff6e2448f3098b1ad7731b
+      internalID: -272695194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ambientacionnn_0: 147115759
+      ambientacionnn_1: -264345295
+      ambientacionnn_10: 1239966890
+      ambientacionnn_11: 51230951
+      ambientacionnn_12: 1878029465
+      ambientacionnn_13: 765062391
+      ambientacionnn_14: 1654216503
+      ambientacionnn_15: 1400251461
+      ambientacionnn_16: 279981957
+      ambientacionnn_17: -2144173494
+      ambientacionnn_18: -582417673
+      ambientacionnn_19: 1539418091
+      ambientacionnn_2: -821774745
+      ambientacionnn_20: 89052783
+      ambientacionnn_21: -1706293300
+      ambientacionnn_22: -864841484
+      ambientacionnn_23: 1158822015
+      ambientacionnn_24: 1693610987
+      ambientacionnn_25: 909403803
+      ambientacionnn_26: 849666578
+      ambientacionnn_27: 144961064
+      ambientacionnn_28: 521809296
+      ambientacionnn_29: -1384979822
+      ambientacionnn_3: 299777277
+      ambientacionnn_30: -886266233
+      ambientacionnn_31: -593176955
+      ambientacionnn_32: 1662966722
+      ambientacionnn_33: 1927047259
+      ambientacionnn_34: 598192291
+      ambientacionnn_35: 1847338115
+      ambientacionnn_36: 303787253
+      ambientacionnn_37: 2053115176
+      ambientacionnn_38: 510012394
+      ambientacionnn_39: 341146809
+      ambientacionnn_4: 1728875682
+      ambientacionnn_40: 990851768
+      ambientacionnn_41: -1128678947
+      ambientacionnn_42: 1835260937
+      ambientacionnn_43: 1683033928
+      ambientacionnn_44: 1080463179
+      ambientacionnn_45: 303195474
+      ambientacionnn_46: 987078828
+      ambientacionnn_47: 1623970417
+      ambientacionnn_48: 777439341
+      ambientacionnn_49: 923137632
+      ambientacionnn_5: -762046626
+      ambientacionnn_50: 341411407
+      ambientacionnn_51: -98499865
+      ambientacionnn_52: -182795864
+      ambientacionnn_53: -1300224831
+      ambientacionnn_54: -323319471
+      ambientacionnn_55: -1506156088
+      ambientacionnn_56: 2100010347
+      ambientacionnn_57: -1898737495
+      ambientacionnn_58: 1109137471
+      ambientacionnn_59: -1235155527
+      ambientacionnn_6: 877710188
+      ambientacionnn_60: 358045619
+      ambientacionnn_61: -1670864026
+      ambientacionnn_62: 2101918918
+      ambientacionnn_63: 348672364
+      ambientacionnn_64: 985663035
+      ambientacionnn_65: 323033220
+      ambientacionnn_66: -464666821
+      ambientacionnn_67: -2021874506
+      ambientacionnn_68: 265149927
+      ambientacionnn_69: 355779915
+      ambientacionnn_7: 1230438551
+      ambientacionnn_70: 769414420
+      ambientacionnn_71: 126472175
+      ambientacionnn_72: -272695194
+      ambientacionnn_8: 774677293
+      ambientacionnn_9: -199081399
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
